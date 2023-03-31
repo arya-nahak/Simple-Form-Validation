@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background: cadetblue;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #060606;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 420px;
+  max-width: 100%;
+  position: absolute;
+  top: 3%;
+}
+
+.parent {
+  justify-content: center;
+  display: flex;
+}
+
+#s_btn {
+  position: fixed;
+  left: 55%;
+}
